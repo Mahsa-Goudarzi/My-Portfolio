@@ -1,11 +1,17 @@
 :root {
   --button-color-primary: #7c83fd;
-  --buttun-color-secondary: #96baff;
-  --background-color: #dbe6fd;
+  --buttun-color-secondary: #dbe6fd;
+  --background-color: #f3f6fd;
   --font-color-primary: #293b5f;
   --font-color-secondary: #47597e;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--background-color);
+  font-family: var(--default-font-family);
+  color: var(--font-color-secondary);
 }
 
 h1,
@@ -16,11 +22,23 @@ h5,
 h6 {
   color: var(--font-color-primary);
   font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
-p {
-  color: var(--font-color-secondary);
-  font-family: var(--default-font-family);
+.hero p {
+  font-size: 36px;
+  color: var(--font-color-primary);
+  font-weight: bold;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 h1,
@@ -41,9 +59,10 @@ footer {
   text-align: center;
 }
 
-.hero-container {
+.hero {
   text-align: center;
-  background: var(--background-color);
+  padding: 80px 20px;
+  background: var(--buttun-color-secondary);
 }
 
 .button-link {
