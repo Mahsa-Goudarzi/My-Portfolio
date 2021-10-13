@@ -1,17 +1,61 @@
 :root {
+  --button-color-primary: #7c83fd;
+  --buttun-color-secondary: #96baff;
+  --background-color: #dbe6fd;
+  --font-color-primary: #293b5f;
+  --font-color-secondary: #47597e;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
-.playfair-bold {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--font-color-primary);
   font-family: var(--heading-font-family);
 }
 
-.playfair-italic {
-  font-family: var(--heading-font-family);
-  font-style: italic;
-}
-
-.poppins-bold {
+p {
+  color: var(--font-color-secondary);
   font-family: var(--default-font-family);
+}
+
+h1,
+h2 {
+  overflow: hidden;
+  animation: moveInLeft 3s ease-out;
+  animation-delay: 2s;
+  animation-duration: 4s;
+}
+
+h3 {
+  animation: fadeInRight 3s ease-out;
+  animation-delay: 2s;
+  animation-duration: 3s;
+}
+
+footer {
+  text-align: center;
+}
+
+.hero-container {
+  text-align: center;
+  background: var(--background-color);
+}
+
+.button-link {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid var(--button-color-primary);
+  border-radius: 5px;
+  background-color: var(--button-color-primary);
+}
+
+.footer,
+.footer:hover {
+  color: var(--button-color-primary);
 }
