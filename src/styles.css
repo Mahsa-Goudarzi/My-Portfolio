@@ -1,11 +1,18 @@
 :root {
-  --button-color-primary: #7c83fd;
+  --button-color-primary: #656cec;
   --buttun-color-secondary: #dbe6fd;
-  --background-color: #f3f6fd;
+  --background-color: #f7f8fc;
   --font-color-primary: #293b5f;
   --font-color-secondary: #47597e;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    text-align: center;
+    padding: 0px;
+  }
 }
 
 body {
@@ -38,21 +45,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-}
-
-h1,
-h2 {
-  overflow: hidden;
-  animation: moveInLeft 3s ease-out;
-  animation-delay: 2s;
-  animation-duration: 4s;
-}
-
-h3 {
-  animation: fadeInRight 3s ease-out;
-  animation-delay: 2s;
-  animation-duration: 3s;
+  font-size: 60px;
 }
 
 footer {
@@ -65,13 +58,35 @@ footer {
   background: var(--buttun-color-secondary);
 }
 
-.button-link {
+.contact-btn {
   color: white;
+  font-size: 16px;
+  line-height: 25px;
   text-decoration: none;
   padding: 20px;
   border: 1px solid var(--button-color-primary);
   border-radius: 5px;
   background-color: var(--button-color-primary);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.launch-btn {
+  color: var(--button-color-primary);
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: none;
+  padding: 20px;
+  border: 1px solid var(--button-color-primary);
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.launch-btn:hover {
+  color: white;
+  background: var(--button-color-primary);
 }
 
 .footer,
