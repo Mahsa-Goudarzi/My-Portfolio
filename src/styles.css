@@ -1,0 +1,17 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+.playfair-bold {
+  font-family: var(--heading-font-family);
+}
+
+.playfair-italic {
+  font-family: var(--heading-font-family);
+  font-style: italic;
+}
+
+.poppins-bold {
+  font-family: var(--default-font-family);
+}
