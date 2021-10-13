@@ -1,7 +1,7 @@
 :root {
   --button-color-primary: #656cec;
-  --buttun-color-secondary: #dbe6fd;
-  --background-color: #f7f8fc;
+  --buttun-color-secondary: rgba(229, 234, 252, 0.712);
+  --background-color: #f7f8fcbd;
   --font-color-primary: #293b5f;
   --font-color-secondary: #47597e;
   --heading-font-family: "Playfair Display", serif;
