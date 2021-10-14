@@ -25,6 +25,11 @@ h6 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
 .hero p {
   font-size: 36px;
   color: var(--font-color-primary);
@@ -32,9 +37,8 @@ h6 {
   margin: 0;
 }
 
-h1 {
+.hero h1 {
   font-size: 96px;
-  line-height: 1.5;
 }
 
 h2 {
@@ -51,7 +55,8 @@ footer {
   background: var(--buttun-color-secondary);
 }
 
-.contact-btn {
+.contact-btn,
+.contact-btn:hover {
   color: white;
   font-size: 16px;
   line-height: 25px;
@@ -87,7 +92,7 @@ footer {
   color: var(--button-color-primary);
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
@@ -103,5 +108,11 @@ footer {
   .project-description {
     text-align: center;
     padding: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  img .skills {
+    width: 5px;
   }
 }
