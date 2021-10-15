@@ -53,7 +53,47 @@ h2 {
 }
 
 footer {
-  text-align: center;
+  margin: 60px;
+}
+
+footer .contact-btn {
+  margin-top: 20px;
+}
+
+footer .contact-box {
+  background: var(--color-secondary);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box h3 {
+  font-size: 48px;
+}
+
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: #293b5f;
+}
+
+footer .email-link:hover {
+  color: var(--color-primary);
+}
+
+footer .social-links a,
+footer .social-links a:hover {
+  font-size: 18px;
+  color: var(--color-primary);
+  padding: 10px 14px;
+  margin: 0 15px;
+  border-radius: 50%;
+  background: var(--color-secondary);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--background-color);
+  background: var(--color-primary);
 }
 
 .logo {
@@ -107,11 +147,6 @@ footer {
   color: var(--color-primary);
 }
 
-.footer,
-.footer:hover {
-  color: var(--color-primary);
-}
-
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 44px;
@@ -125,6 +160,19 @@ footer {
   h3 {
     font-size: 26px;
   }
+
+  footer .contact-btn {
+    margin-top: 0;
+  }
+
+  footer .contact-box h3 {
+    font-size: 26px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
+  }
+
   .project-description {
     text-align: center;
     padding: 10px;
