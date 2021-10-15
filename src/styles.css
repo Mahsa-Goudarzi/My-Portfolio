@@ -48,6 +48,9 @@ h2 {
 .content h3 {
   font-family: var(--default-font-family);
 }
+.content p {
+  font-size: 14px;
+}
 
 footer {
   text-align: center;
