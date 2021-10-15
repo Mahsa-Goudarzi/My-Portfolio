@@ -45,6 +45,10 @@ h2 {
   font-size: 60px;
 }
 
+.content h3 {
+  font-family: var(--default-font-family);
+}
+
 footer {
   text-align: center;
 }
@@ -89,6 +93,15 @@ footer {
 .launch-btn:hover {
   color: white;
   background: var(--color-primary);
+}
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.skill {
+  font-weight: bold;
+  color: var(--color-primary);
 }
 
 .footer,
