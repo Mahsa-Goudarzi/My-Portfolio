@@ -49,6 +49,10 @@ footer {
   text-align: center;
 }
 
+.logo {
+  max-height: 25px;
+}
+
 .hero {
   text-align: center;
   padding: 80px 20px;
