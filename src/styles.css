@@ -147,6 +147,10 @@ footer .social-links a:hover {
   color: var(--color-primary);
 }
 
+.bordered {
+  border: 1px solid var(--color-secondary);
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 44px;
